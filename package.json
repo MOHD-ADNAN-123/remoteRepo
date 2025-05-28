@@ -1,0 +1,24 @@
+{
+  "name": "remoterepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOHD-ADNAN-123/remoteRepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MOHD-ADNAN-123/remoteRepo/issues"
+  },
+  "homepage": "https://github.com/MOHD-ADNAN-123/remoteRepo#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "expree": "^2.1.0"
+  }
+}
