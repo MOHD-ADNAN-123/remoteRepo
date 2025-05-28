@@ -5,7 +5,7 @@ const app = express();
 
 // Set EJS as the view engine
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views')); // ✅ Fix applied
 
 // Example route
 app.get('/', (req, res) => {
